@@ -21,20 +21,26 @@ namespace Demo_NMM.EF.D1.Migrations
                     new Brewery
                     {
                         Name = "Johnny's Hops",
+                        Address = "123 IPA Lane",
                         City = "Empire",
                         State = "MI",
+                        Zip = "11111"
                     },
                     new Brewery
                     {
                         Name = "Billy's Brew",
+                        Address = "321 Porter Street",
                         City = "Empire",
-                        State = "MI"
+                        State = "MI",
+                        Zip = "22222"
                     },
                     new Brewery
                     {
                         Name = "Suzy's Suds",
+                        Address = "231 Ale Isle",
                         City = "Empire",
-                        State = "MI"
+                        State = "MI",
+                        Zip = "33333"
                     }
                 );
         }

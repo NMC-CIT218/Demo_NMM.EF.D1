@@ -78,7 +78,7 @@ namespace Demo_NMM.EF.D1.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,City,State")] Brewery brewery)
+        public ActionResult Edit([Bind(Include = "ID,Name,Address,City,State,Zip")] Brewery brewery)
         {
             if (ModelState.IsValid)
             {
